@@ -1,0 +1,403 @@
+* {
+    font-family: arial;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.border {
+    border: 1.5px solid transparent;
+    border-radius: 50px;
+}
+
+.border:hover {
+    border: 1.5px solid black;
+}
+
+.nav {
+    display: flex;
+    height: 80px;
+    padding: 0px 40px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 30%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: red;
+    font-weight: 900;
+    font-size:larger;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    width: 40%;
+    height: 80px;
+    cursor: pointer;
+}
+
+
+
+.text1 {
+    font-size: 16px;
+    color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    padding: 20px 20px 20px 20px;
+}
+
+.text1:hover {
+    background-color: whitesmoke;
+}
+
+.text2:hover {
+    background-color: whitesmoke;
+}
+
+
+.text2 {
+    font-size: 16px;
+    color: #6A6A6A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+}
+.profile {
+    display: flex;
+    font-size: 16px;
+    color: #222222;
+    font-weight: 700;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.bars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 50px;
+    padding: 5px 10px;
+    width: auto;
+    height: auto;
+    background: transparent;
+    cursor: pointer;
+    gap: 10px;
+    
+}
+
+
+.c {
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+/* 2nd line  */
+
+.line2 {
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px solid gray;
+    height: 70px;
+    background: white;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.destination, .in, .out, .guest {
+    height: 50px;
+    padding: 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.destination {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    background-color: #ff385c;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon1 {
+    color: white;
+    font-size: 18px;
+}
+
+.divider {
+    width: 1px;
+    height: 30px;
+    background-color: lightgray;
+}
+
+.label {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: -2px;
+}
+
+input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    background: transparent;
+    color: gray;
+    padding: 10x;
+}
+
+.centre {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.line {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 1px;
+    width:100%;
+    background-color: lightgray;  
+}
+
+/* Line3 */
+.panel {
+    padding: 0px 40px;
+    height: 70px;
+    margin: 15px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    
+}
+
+.section {
+    display: flex;
+    
+}
+.pool , .farm, .smoking, .beach, .sports, .parking, .drink{
+    height: 60px;
+    width: 90px;
+    padding: 4px 0px;
+    margin: 12px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: lightgray;
+    gap: 15px;
+
+}
+
+.section i{
+    color: gray;
+}
+
+
+
+.seco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greate {
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 50px;    
+}
+
+
+
+.greate i{
+    color: black;
+    font-size: 12px;
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.filter {
+    display: flex;
+    gap: 15px;
+    border: 2px solid lightgray;
+    padding: 2px 16px 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 48px;
+    width: 92px;
+    padding: 7px 0px;
+    justify-content: center;    
+    align-items: center;
+    margin-left: 30px;
+
+}
+
+.filter i {
+    color: black;
+}
+
+.filter:hover, .display:hover {
+    background-color: #f5f5f5;
+    transition: 0.3s ease-in-out;
+}
+
+.filt {
+    font-size: small;
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    display: flex;
+    gap: 15px;
+    border: 2px solid lightgray;
+    padding: 10px 16px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 48px;
+    width: 220px;
+    padding: 7px 0px;
+    justify-content: center;    
+    align-items: center;
+    margin-left: 30px;
+}
+
+.disp {
+    font-size: small;
+}
+
+.switch input {
+    display: none;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.3s;
+    border-radius: 24px;
+}
+
+.slider::before {
+    content: "";
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: black;
+
+}
+
+input:checked + .slider::before {
+    transform: translateX(26px);
+}
+
+.hero {
+    margin: 40px;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box-img {
+    height: 270px;
+    width: 290px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 15px;
+}
+
+.sub {
+    color: gray;
+}
+
+.loc {
+    font-weight: 500;
+}
+
+.cont {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+.box {
+    
+    display: flex;
+
+    margin-bottom: 20px;
+}
+
+.boc {
+    margin-left: 15px;
+    margin-right: 15px;
+}
